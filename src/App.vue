@@ -1,0 +1,16 @@
+<template>
+  <div id="app">
+    <Slider />
+  </div>
+</template>
+
+<script>
+import Slider from "./components/Slider";
+
+export default {
+  name: "App",
+  components: {
+    Slider,
+  },
+};
+</script>
